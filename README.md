@@ -1,94 +1,105 @@
 # Short-Story-Selection
 
-Title
+📄 Title:
 
 A Survey of LLM-based Deep Search Agents: Paradigm, Optimization, Evaluation, and Challenges
 
-Authors
+👥 Authors:
 
-Yunjia Xi, Jianghao Lin, Yongzhao Xiao, Zheli Zhou, Rong Shan, Te Gao, Jiachen Zhu, Weiwen Liu, Yong Yu, Weinan Zhang. 
-DBLP
-+2
-arXiv
-+2
+Yunjia Xi, Jianghao Lin, Yongzhao Xiao, Zheli Zhou, Rong Shan, Te Gao, Jiachen Zhu, Weiwen Liu, Yong Yu, and Weinan Zhang
 
-Publication Info
+🗓️ Publication Year:
 
-Preprint on arXiv (2025). 
-arXiv
-+1
+2025 – arXiv preprint (arXiv:2508.05668
+)
 
-Abstract / Purpose
+🧩 Overview / Abstract Summary
 
-The paper observes that the advent of large-language-models (LLMs) has significantly transformed web search, enabling more dynamic, autonomous systems rather than static query-responses. 
-arXiv
-+1
+This survey explores the emerging paradigm of Large Language Model (LLM)-based Deep Search Agents, which represent a new generation of intelligent systems capable of autonomous, multi-turn web and data search.
 
-It focuses on a new paradigm: LLM-based deep search agents (sometimes called “search agents”) that:
+These agents go beyond traditional query-response retrieval by:
 
-Understand user intent and context,
+Understanding user intent and context,
 
-Plan and execute multi-turn retrieval (not just one query → result),
+Planning multi-step information retrieval,
 
-Integrate information from multiple sources (web, private memory, databases) to answer complex queries. 
-arXiv
-+1
+Interacting dynamically with online data sources, and
 
-The survey systematically analyses prior work in this space from four major dimensions: architecture (“how to search”), optimization (“how to optimize”), application (“how to apply”), and evaluation (“how to evaluate”). 
-arXiv
-+1
+Producing refined, synthesized answers.
 
-It also identifies current open challenges and future research directions. 
-arXiv
-+1
+The authors systematically organize the literature and introduce a taxonomy around four major themes:
 
-Key Contributions
+🧭 How to Search – agent paradigms and architectures
 
-Task formulation: Defines what a deep search agent is — given user intent + context, the agent actively plans, acts (issue queries, retrieve, refine) and produces answers. 
-arXiv
-+1
+⚙️ How to Optimize – training and reinforcement strategies
 
-Systematic taxonomy / categorisation: Offers an organized view of how search agents are built:
+💡 How to Apply – real-world domains and systems
 
-“How to Search” (search structures): sequential, parallel, hybrid. 
-fugumt.com
-+1
+📊 How to Evaluate – benchmarks and performance assessment
 
-“How to Optimize”: tuning-free methods, supervised fine-tuning (SFT), reinforcement learning (RL). 
-fugumt.com
+🧱 Core Contributions
 
-“How to Apply”: internal agent enhancements (tool use, memory, reasoning), external applications (finance, healthcare, coding). 
-arXiv
+✅ Task Definition:
+Defines what constitutes a Deep Search Agent — an LLM-driven system that plans, acts, and reasons across multi-source environments to answer complex questions.
 
-“How to Evaluate”: datasets, metrics, evaluators (human, LLM-as-judge). 
-Sina Finance
+✅ Comprehensive Taxonomy:
+The paper proposes a unified framework summarizing the core mechanisms of search agents:
 
-Challenges & future outlook: Highlights issues like multi-source fusion, multimodality, reward design for RL, evaluation beyond final answer accuracy. 
-fugumt.com
-+1
+Search Structures: Sequential, Parallel, and Hybrid retrieval strategies.
 
-Why It’s Relevant
+Optimization Techniques: Tuning-free, Supervised Fine-Tuning (SFT), and Reinforcement Learning (RL) methods.
 
-If you’re working on data mining / extraction / web-search / scraping, this paper touches on the frontier of how LLMs are used not just for retrieval but for deeper, autonomous information seeking and mining.
+Applications: From internal system improvements (tool use, memory) to external use cases (finance, healthcare, code generation, etc.).
 
-Although it’s framed in “search agents,” the concepts overlap with data extraction + mining: multi-turn retrieval, dynamic planning, integrating multiple sources, reasoning over retrieved data.
+Evaluation: Datasets, metrics, and evaluation strategies (including LLM-as-a-Judge).
 
-It provides a strong structural framework you could adapt for survey work in the intersection of web-scraping/data mining + AI/ML agents.
+✅ Challenges & Future Directions:
+Identifies key open research problems, including:
 
-How You Could Use It
+Integration of multi-modal data (text, image, structured).
 
-Use its taxonomy (search structures, optimization methods, evaluation frameworks) as a template for your own survey, perhaps focusing specifically on web-scraping/data-mining agents.
+Designing consistent reward signals for autonomous search agents.
 
-Leverage the “open challenges” section to identify gaps in web-scraping/data-mining domain (e.g., autonomous agents that scrape + mine + reason) and propose how your survey will address them.
+Ensuring reliability and reducing hallucinations in information synthesis.
 
-Use their references (they maintain a GitHub repo of papers) to pull further reading that span scraping + mining + search agents. 
-GitHub
-+1
+Developing universal evaluation frameworks for real-world performance.
 
-Limitations / Considerations
+🚀 Why This Paper Matters
 
-The paper mainly focuses on search agents in the sense of retrieval and information seeking, rather than classic data mining tasks such as clustering, pattern mining, anomaly detection.
+Bridges Information Retrieval, Data Mining, and AI Agentic Systems.
 
-If your interest is strictly “web-scraping + data mining” (extraction of data, followed by mining), you may need to expand or adapt the survey’s scope to cover mining frameworks not detailed in this paper.
+Highlights how LLMs act as autonomous data-mining agents, capable of gathering, reasoning, and summarizing web data.
 
-Some recent works (post‐2025) may not yet be included given the publication timeline.
+Provides a solid foundation for future work on Web Scraping, Knowledge Extraction, and Data-Driven AI Agents.
+
+Establishes a structured lens to study agent pipelines — from query planning to response generation.
+
+🔍 How You Can Use This Paper
+
+🧠 Reference Framework:
+Use its four-pillar taxonomy (Search / Optimize / Apply / Evaluate) as a template for your own survey or project.
+
+🧩 Adaptation for Data Mining / Web Scraping:
+You can extend this framework to study autonomous web-scraping agents or AI-driven data mining systems that collect, clean, and analyze information online.
+
+📚 Citations and Dataset Sources:
+The authors provide an open repository with related works — GitHub: Awesome Search Agent Papers
+.
+
+⚠️ Limitations
+
+Primarily focused on search and retrieval agents, not classic statistical data mining (like clustering or association rule mining).
+
+Limited coverage of domain-specific data scraping or structured database mining.
+
+Since it’s a 2025 preprint, newer systems post-August 2025 may not yet be included.
+
+🧭 Potential Extensions for Your Work
+
+If you’re writing your own survey or proposal, you could build upon this paper by:
+
+Extending its framework toward web scraping + data mining applications.
+
+Comparing Deep Search Agents vs Web Data Extraction Agents.
+
+Mapping agent evaluation methods to data quality, coverage, and mining performance.
