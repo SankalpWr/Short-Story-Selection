@@ -7,8 +7,8 @@ A Survey of LLM-based Deep Search Agents: Paradigm, Optimization, Evaluation, an
 
  # Deliverables 
 # Medium Article - https://medium.com/@wahanesankalp29/from-web-search-to-llm-powered-search-agents-6a0ef663fded
-# PPT Link -
-# Video Link -
+# PPT Link - https://docs.google.com/presentation/d/1UjCY_7jVdRwSYrP7yge7s3ouBMvt1mEvWjQYbsF_azE/edit?slide=id.p#slide=id.p
+# Video Link - https://loom.com/share/folder/90cb66ca97154f9a8f8b5a7dbf9899b3
 
 
 
