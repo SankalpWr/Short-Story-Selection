@@ -4,6 +4,16 @@
 
 A Survey of LLM-based Deep Search Agents: Paradigm, Optimization, Evaluation, and Challenges
 
+
+#Deliverables 
+
+#Medium Article - https://medium.com/@wahanesankalp29/from-web-search-to-llm-powered-search-agents-6a0ef663fded
+#PPT Link -
+#Video Link -
+
+
+
+
 👥 Authors:
 
 Yunjia Xi, Jianghao Lin, Yongzhao Xiao, Zheli Zhou, Rong Shan, Te Gao, Jiachen Zhu, Weiwen Liu, Yong Yu, and Weinan Zhang
